@@ -48,11 +48,11 @@ class ProfileManager {
 	/**
 	 * @var array
 	 */
-	private $default_profile;
+	public $default_profile;
 	/**
 	 * @var array
 	 */
-	private $checkbox_options;
+	public $checkbox_options;
 
 	/**
 	 * ProfileManager constructor.

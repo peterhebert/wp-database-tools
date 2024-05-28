@@ -23,7 +23,7 @@ class ProPluginManager extends PluginManagerBase {
 	public $addon;
 	public $api;
 	public $download;
-	public $licence;
+	public $license;
 
 	public function __construct(
 		Settings $settings,
