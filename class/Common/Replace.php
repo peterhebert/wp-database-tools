@@ -601,12 +601,12 @@ class Replace {
 	protected function json_replaces( $prefix )
 	{
 		$default_tables = [
-			"${prefix}posts",
+			"{$prefix}posts",
 		];
 
 		if ( in_array( $this->intent, ['find_replace', 'import'] ) ) {
 			$default_tables = [
-				"_mig_${prefix}posts",
+				"_mig_{$prefix}posts",
 			];
 		}
 
