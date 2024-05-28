@@ -45,6 +45,14 @@ class ProfileManager {
 	 * @var FormData
 	 */
 	private $form_data;
+	/**
+	 * @var array
+	 */
+	private $default_profile;
+	/**
+	 * @var array
+	 */
+	private $checkbox_options;
 
 	/**
 	 * ProfileManager constructor.

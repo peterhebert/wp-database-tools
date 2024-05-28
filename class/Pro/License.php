@@ -54,6 +54,10 @@ class License {
 	 * @var static $static_settings
 	 */
 	private static $static_settings;
+	/**
+	 * @var Download
+	 */
+	private $download;
 
 	public function __construct(
 		Api $api,

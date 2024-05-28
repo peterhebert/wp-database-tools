@@ -67,6 +67,10 @@ class CompatibilityManager {
 	 * @var MigrationStateManager
 	 */
 	public $migration_state;
+	/**
+	 * @var Util
+	 */
+	public $util;
 
 	public function __construct(
 		Filesystem $filesystem,

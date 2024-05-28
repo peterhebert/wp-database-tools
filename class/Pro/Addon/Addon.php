@@ -38,6 +38,10 @@ class Addon {
 	 * @var $addons
 	 */
 	public $addons;
+	/**
+	 * @var Properties
+	 */
+	public $props;
 
 	public function __construct(
 		Api $api,

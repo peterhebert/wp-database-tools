@@ -20,6 +20,11 @@ use DeliciousBrains\WPMDB\Pro\License;
 
 class ProPluginManager extends PluginManagerBase {
 
+	public $addon;
+	public $api;
+	public $download;
+	public $licence;
+
 	public function __construct(
 		Settings $settings,
 		Assets $assets,

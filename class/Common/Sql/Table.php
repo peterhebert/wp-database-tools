@@ -43,6 +43,10 @@ class Table {
 	 */
 	public $form_data;
 	/**
+	 * @var array
+	 */
+	public $form_data_arr;
+	/**
 	 * @var
 	 */
 	public $query_template;
